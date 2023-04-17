@@ -1,5 +1,5 @@
 import React, { useState } from 'react'; // Import React and useState hook
-import axios from 'axios'; // Import axios library for making HTTP requests
+const axios = require('axios'); // Import axios library for making HTTP requests
 
 function ImageUploader() {
   const [selectedFile, setSelectedFile] = useState(null); // Create state variable to hold selected file
