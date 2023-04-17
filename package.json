@@ -2,6 +2,7 @@
   "name": "warehouse-automation-frontend",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "dependencies": {
     "@azure/msal-browser": "^2.35.0",
     "@azure/msal-react": "^1.5.5",
