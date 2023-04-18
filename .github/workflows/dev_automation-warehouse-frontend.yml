@@ -54,5 +54,5 @@ jobs:
         with:
           app-name: 'automation-warehouse-frontend'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_77B20A814C5149C5A59881475E0F9BD0 }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_SECRET }}
           package: .
