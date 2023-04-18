@@ -26,7 +26,6 @@ jobs:
           npm install
           npm ci
           npm run build
-          rm -r src
           rm -r node_modules
 
       - name: Upload artifact for deployment job
