@@ -27,6 +27,7 @@ jobs:
           npm ci
           npm run build
           rm -r node_modules
+          
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
