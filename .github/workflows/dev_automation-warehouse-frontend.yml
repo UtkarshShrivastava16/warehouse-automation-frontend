@@ -19,13 +19,15 @@ jobs:
       - name: Set up Node.js version
         uses: actions/setup-node@v1
         with:
-          node-version: '18.x'
+          node-version: '16.x'
 
       - name: npm install, build, and start
         run: |
           npm install
           npm ci
           npm run build
+          rm -r src
+          rm -r node_modules
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
